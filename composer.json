@@ -1,0 +1,30 @@
+{
+  "authors": [
+    {
+      "name": "Frederic G. MARAND",
+      "email": "fgm@osinet.fr"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Fgm\\MeteorListGraph\\": "src"
+    }
+  },
+  "config": {
+    "preferred-install": "source",
+    "sort-packages": true
+  },
+  "description": "Build a GraphViz dotfile from meteor list --tree",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "name": "fgm/meteor_list_graph",
+  "require": {
+    "osinet/grafizzi": "^0.0.1"
+  },
+  "require-dev": {
+    "composer/composer": "^1.6",
+    "phpunit/phpunit": "^6.5",
+    "psy/psysh": "^0.8.17"
+  },
+  "type": "project"
+}

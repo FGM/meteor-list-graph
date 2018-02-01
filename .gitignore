@@ -1,0 +1,6 @@
+/.idea/workspace.xml
+*.dot
+*.svg
+*.png
+vendor/
+composer.lock
